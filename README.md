@@ -1,2 +1,2 @@
 # ChatServer
- Server for a chat
+ Node Server for a chat
