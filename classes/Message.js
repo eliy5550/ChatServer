@@ -1,11 +1,8 @@
 class Message {
-    constructor(id , message , time , user){
-        this.id = id
+    constructor(user , message , time ){
         this.message = message 
-        this.time = time
+        this.time = new Date()
         this.user = user
     }
 }
-
-
 module.exports = Message

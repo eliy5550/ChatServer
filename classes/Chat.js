@@ -4,8 +4,7 @@ class Chat{
     messages = []
     lastestMessageId = -1
 
-    constructor(chatId,chatName,chatDesc){
-        this.id = chatId
+    constructor(chatName,chatDesc){
         this.name = chatName
         this.desc = chatDesc
     }
