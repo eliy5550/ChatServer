@@ -15,6 +15,8 @@ app.use(cors({
 
 app.use(bp.json())
 
+app.use(express.static('build'))
+
 //const chatsManager = new ChatsManager()
 
 var db;
