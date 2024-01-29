@@ -9,9 +9,7 @@ const cors = require('cors');
 
 
 //public API
-app.use(cors({
-    origin: '*'
-}));
+app.use(cors());
 
 app.use(bp.json())
 
