@@ -166,7 +166,9 @@ app.post('/chat/loadNewMessages', async (req, res) => {
                     if(count <= 0){break}
                 }
                 collectedMessages.push(dbMessage)
+
             }
+
             //push into array of results
             //resChats.push({ ...reqChat, messages: collectedMessages })
             resChats.push({ ...reqChat, messages: collectedMessages })
